@@ -10,8 +10,8 @@ jobs:
       - name: Saludar
         run: echo "Hola desde GitHub Actions!"
 
-      -name: Ver fecha del runner
+      - name: Ver fecha del runner
         run: date
 
       - name: Ver archivos disponibles
-        run: ls-la
+        run: ls -la
